@@ -144,9 +144,9 @@ def setup():
     except ImportError:
         print("pip module not found")
         print("please install pip module")
-    system("python -m pip install --upgrade pip")
-    #system("python -m pip install beautifulsoup4")
-    system("python -m pip install google")
+    system("python3 -m pip install --upgrade pip")
+    #system("python3 -m pip install beautifulsoup4")
+    system("python3 -m pip install google")
 def sea(x):
     if x == "setup":
         setup()
